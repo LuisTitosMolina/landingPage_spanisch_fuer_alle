@@ -1,5 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
-
-
+body{
+    display: grid;
+    place-items: center;
+}
+.cabezera
+{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nombreAcademia
+{
+    margin-right: 50px;
+    font-size: 70px;
+}
+.logo
+{
+    width: 450px;
+    height: 300px;
+}
 
 
