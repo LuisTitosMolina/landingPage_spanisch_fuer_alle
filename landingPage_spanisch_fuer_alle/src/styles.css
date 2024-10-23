@@ -1,8 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
-body{
+body
+{
     display: grid;
     place-items: center;
 }
+
 .cabezera
 {  
     display: flex;
@@ -19,5 +21,76 @@ body{
     width: 450px;
     height: 300px;
 }
+
+.anmelden
+{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 30px;
+    font-family: 'calibri';
+    font-size: 16px;
+    background: #04c410;
+    color: hsl(240, 83%, 2%);
+    border-radius: 6px;
+    border: none;
+}
+
+.formulario
+{
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 6px;
+    align-items: center;
+    background: #3393F3;
+    font-family: 'calibri';
+    color: #fcfcfc;
+    text-align: center; 
+    font-size: 16px;   
+}
+
+.casillero
+{
+    width: 90%;
+    background: #fcfcfc;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    border: none;
+    font-family: 'calibri';
+    font-size: 16px;
+}
+
+.boton_apuntarme
+{
+    width: 98%;
+    height: 38px;
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'calibri';
+    font-size: 16px;
+    background: #919090;
+    border: none;
+}
+
+.formulario a
+{
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+.formulario p
+{
+    
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+}
+
+
 
 
