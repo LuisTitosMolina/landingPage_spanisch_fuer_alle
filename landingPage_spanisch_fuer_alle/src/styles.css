@@ -22,7 +22,7 @@ body
     height: 300px;
 }
 
-.anmelden
+button#anmelden
 {
     margin-top: 15px;
     margin-bottom: 30px;
@@ -64,7 +64,7 @@ body
     font-size: 16px;
 }
 
-.boton_apuntarme
+button#boton_apuntarme
 {
     width: 98%;
     height: 38px;
@@ -73,6 +73,11 @@ body
     font-family: 'calibri';
     font-size: 16px;
     background: #919090;
+    border: none;
+}
+
+dialog#pop
+{
     border: none;
 }
 
